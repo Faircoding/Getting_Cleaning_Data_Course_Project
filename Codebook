@@ -1,0 +1,98 @@
+Code Book
+This code book summarizes the resulting data fields in TidyFile.txt.
+
+"subjectId" "activityId" "activityType" 
+
+
+Identifiers
+
+subjectId - The ID of the test subject
+activityId - The ID of the type of activity performed when the corresponding measurements were taken
+Measurements
+
+"timeBodyAccelerator-mean()-X" 
+"timeBodyAccelerator-mean()-Y" 
+"timeBodyAccelerator-mean()-Z" 
+"timeBodyAccelerator-std()-X" 
+"timeBodyAccelerator-correlation()-X,Z" 
+"timeBodyAccelerator-correlation()-Y,Z" 
+"timeGravityAccelerator-mean()-X" 
+"timeGravityAccelerator-mean()-Y" 
+"timeGravityAccelerator-mean()-Z" 
+"timeGravityAccelerator-std()-X" 
+"timeGravityAccelerator-correlation()-X,Z" 
+"timeGravityAccelerator-correlation()-Y,Z" 
+"timeBodyAcceleratorJerk-mean()-X" 
+"timeBodyAcceleratorJerk-mean()-Y" 
+"timeBodyAcceleratorJerk-mean()-Z" 
+"timeBodyAcceleratorJerk-std()-X" 
+"timeBodyAcceleratorJerk-correlation()-X,Z" 
+"timeBodyAcceleratorJerk-correlation()-Y,Z" 
+"timeBodyGyroscope-mean()-X" 
+"timeBodyGyroscope-mean()-Y" 
+"timeBodyGyroscope-mean()-Z" 
+"timeBodyGyroscope-std()-X" 
+"timeBodyGyroscope-correlation()-X,Z" 
+"timeBodyGyroscope-correlation()-Y,Z" 
+"timeBodyGyroscopeJerk-mean()-X" 
+"timeBodyGyroscopeJerk-mean()-Y" 
+"timeBodyGyroscopeJerk-mean()-Z" 
+"timeBodyGyroscopeJerk-std()-X" 
+"timeBodyGyroscopeJerk-correlation()-X,Z" 
+"timeBodyGyroscopeJerk-correlation()-Y,Z" 
+"timeBodyAcceleratorMagnitude-arCoeff()3" 
+"timeBodyAcceleratorMagnitude-arCoeff()4" 
+"timeGravityAcceleratorMagnitude-arCoeff()3" 
+"timeGravityAcceleratorMagnitude-arCoeff()4" 
+"timeBodyAcceleratorJerkMagnitude-arCoeff()3" 
+"timeBodyAcceleratorJerkMagnitude-arCoeff()4" 
+"timeBodyGyroscopeMagnitude-arCoeff()3" 
+"timeBodyGyroscopeMagnitude-arCoeff()4" 
+"timeBodyGyroscopeJerkMagnitude-arCoeff()3" 
+"timeBodyGyroscopeJerkMagnitude-arCoeff()4" 
+"frequencyBodyAccelerator-mean()-X" 
+"frequencyBodyAccelerator-mean()-Y" 
+"frequencyBodyAccelerator-mean()-Z" 
+"frequencyBodyAccelerator-std()-X" 
+"frequencyBodyAccelerator-maxInds-Y" 
+"frequencyBodyAccelerator-maxInds-Z" 
+"frequencyBodyAccelerator-meanFreq()-X" 
+"frequencyBodyAccelerator-bandsEnergy()-1,24" 
+"frequencyBodyAccelerator-bandsEnergy()-25,48" 
+"frequencyBodyAcceleratorJerk-mean()-X" 
+"frequencyBodyAcceleratorJerk-mean()-Y" 
+"frequencyBodyAcceleratorJerk-mean()-Z" 
+"frequencyBodyAcceleratorJerk-std()-X" 
+"frequencyBodyAcceleratorJerk-maxInds-Y" 
+"frequencyBodyAcceleratorJerk-maxInds-Z" 
+"frequencyBodyAcceleratorJerk-meanFreq()-X" 
+"frequencyBodyAcceleratorJerk-bandsEnergy()-1,24" 
+"frequencyBodyAcceleratorJerk-bandsEnergy()-25,48" 
+"frequencyBodyGyroscope-mean()-X" 
+"frequencyBodyGyroscope-mean()-Y" 
+"frequencyBodyGyroscope-mean()-Z" 
+"frequencyBodyGyroscope-std()-X" 
+"frequencyBodyGyroscope-maxInds-Y" 
+"frequencyBodyGyroscope-maxInds-Z" 
+"frequencyBodyGyroscope-meanFreq()-X" 
+"frequencyBodyGyroscope-bandsEnergy()-1,24" 
+"frequencyBodyGyroscope-bandsEnergy()-25,48" 
+"frequencyBodyAcceleratorMagnitude-entropy()" 
+"frequencyBodyAcceleratorMagnitude-skewness()" 
+"frequencyBodyAcceleratorMagnitude-kurtosis()" 
+"frequencyBodyBodyAcceleratorJerkMagnitude-entropy()" 
+"frequencyBodyBodyAcceleratorJerkMagnitude-skewness()" 
+"frequencyBodyBodyAcceleratorJerkMagnitude-kurtosis()" 
+"frequencyBodyBodyGyroscopeMagnitude-entropy()" 
+"frequencyBodyBodyGyroscopeMagnitude-skewness()" 
+"frequencyBodyBodyGyroscopeMagnitude-kurtosis()" 
+"frequencyBodyBodyGyroscopeJerkMagnitude-entropy()"
+
+Activity Labels
+
+WALKING (1): subject walking during the test
+WALKING_UPSTAIRS (2): subject walking up a staircase during the test
+WALKING_DOWNSTAIRS (3): subject walking down a staircase during the test
+SITTING (4): subject sitting during the test
+STANDING (5): subject standing during the test
+LAYING (6): subject laying down during the test
